@@ -44,8 +44,8 @@ Loaded cleaned dataset into BigQuery, ran aggregate queries:
 - Average MRP by item type
 - Top 5 outlets by total sales
 
-![BigQuery total sales by outlet type](screenshots/bigquery_sales_by_outlet.png)
-![BigQuery avg MRP by item type](screenshots/bigquery_mrp_by_type.png)
+![BigQuery total sales by outlet type](bigquery_sales_by_outlet.png)
+![BigQuery avg MRP by item type](bigquery_mrp_by_type.png)
 
 ## 4. Visualization (BigQuery)
 Used BigQuery's built-in chart feature to visualize aggregate query results directly:
@@ -53,7 +53,7 @@ Used BigQuery's built-in chart feature to visualize aggregate query results dire
 - Bar chart: average MRP by item type
 - Bar chart: top 5 outlets by total sales
 
-![data visualization](screenshots/bigquery_barchart.png)
+![data visualization](bigquery_barchart.png)
 
 ## Tech Stack
 Python (Pandas, NumPy) · MySQL · Google BigQuery
